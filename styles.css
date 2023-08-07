@@ -9,8 +9,7 @@ body {
     overflow: hidden;
     position: fixed;
     top: 0;
-    width: 100%;
-    padding-right: 50px;
+    width: 95%;
     display: flex;
     justify-content: flex-end;
 }
@@ -35,7 +34,7 @@ body {
 
 p {
     font-weight: 600;
-    font-size: 30px;
+    font-size: 27px;
     color: #555555;
 }
 
@@ -45,6 +44,10 @@ h1 {
 
 h2 {
     font-size: 30px;
+}
+
+a, a:visited {
+    color: #555555;
 }
 
 .introduction {
@@ -80,9 +83,18 @@ h2 {
     object-fit: cover; /* This will crop the images to fit the specified height, while maintaining their aspect ratios */
 }
 
-#home_athome, #work_atwork {
+#home_athome, #work_atwork, #about_atabout {
     color: lightgrey;
 }
+
+.highlight {
+    color: grey;
+}
+
+img.grayscale {
+    filter: grayscale(100%);
+}
+
 
 
 
