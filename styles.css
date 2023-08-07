@@ -1,12 +1,10 @@
 body {
     margin: 0;
     font-family: helvetica, geneva, arial, sans-serif;
-    overflow: hidden;
 }
 
 .navbar {
     background-color: white;
-    overflow: hidden;
     position: fixed;
     top: 0;
     width: 95%;
